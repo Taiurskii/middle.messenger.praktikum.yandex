@@ -5,3 +5,6 @@ dist
 # Editor directories and files
 .idea
 .vscode
+
+# other cache files
+.parcel-cache

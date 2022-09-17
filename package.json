@@ -1,0 +1,27 @@
+{
+  "name": "middle.messenger.praktikum.yandex",
+  "version": "1.0.0",
+  "description": "Sprint_1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/pages/index.hbs --no-cache",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taiurskii/middle.messenger.praktikum.yandex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taiurskii/middle.messenger.praktikum.yandex/issues"
+  },
+  "homepage": "https://github.com/Taiurskii/middle.messenger.praktikum.yandex#readme",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars-precompile": "^1.0.1",
+    "parcel": "^2.7.0",
+    "postcss-import": "^15.0.0"
+  }
+}
