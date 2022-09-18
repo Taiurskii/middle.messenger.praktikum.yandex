@@ -1,3 +1,5 @@
+<a href="https://deploy--playful-faun-b31c01.netlify.app" target="_blank">Link netlify.app</a>
+
 ### Ветка, в которой делаете задания спринта, должна называться sprint_i, где i - номер спринта. Не переименовывайте её.
 
 ### Откройте pull request в ветку main из ветки, где вы разрабатывали проект, и добавьте ссылку на этот pr в README.md в ветке main. 

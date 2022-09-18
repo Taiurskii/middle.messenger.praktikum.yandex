@@ -1,0 +1,16 @@
+{{!< main}}
+<div class="profile">
+    <h2 class="profile__title">Профиль пользователя</h2>
+    <div class="profile_list">
+        <div><div>Почта</div><div>pochta@yandex.ru</div></div>
+        <div><div>Логин</div><div>pochta@yandex.ru</div></div>
+        <div><div>Имя</div><div>pochta@yandex.ru</div></div>
+        <div><div>Фамилия</div><div>pochta@yandex.ru</div></div>
+        <div><div>Имя в чате</div><div>pochta@yandex.ru</div></div>
+        <div><div>Телефон</div><div>pochta@yandex.ru</div></div>
+
+        {{> 'link/link' text="Изменить данные" href="changeProfile.hbs" centred=true}}
+        {{> 'link/link' text="Изменить пароль" href="changePassword.hbs" centred=true}}
+        {{> 'link/link' text="Выйти" href="index.hbs" centred=true}}
+    </div>
+</div>
