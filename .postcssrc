@@ -1,5 +1,5 @@
 {
-    "plugins": {
-        "postcss-import": true
-    }
+    "plugins": [
+        "postcss-nested"
+    ]
 }

@@ -1,0 +1,10 @@
+{{!< auth}}
+<div class="card">
+    <h2 class="card__title">Вход</h2>
+    <form class="form">
+        {{> 'fieldset/fieldset' label="Логин" type="text" name="login"}}
+        {{> 'fieldset/fieldset' label="Пароль" type="password" name="password"}}
+        {{> 'button/button' label="Авторизоваться" className="form__button"}}
+        {{> 'link/link' text="Нет аккаунта?" href="" centred=true}}
+    </form>
+</div>
