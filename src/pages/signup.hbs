@@ -1,0 +1,15 @@
+{{!< main}}
+<div class="card">
+    <h2 class="card__title">Авторизация</h2>
+    <form class="form">
+        {{> 'fieldset/fieldset' label="Почта" type="email" name="email"}}
+        {{> 'fieldset/fieldset' label="Логин" type="text" name="login"}}
+        {{> 'fieldset/fieldset' label="Имя" type="text" name="first_name"}}
+        {{> 'fieldset/fieldset' label="Фамилия" type="text" name="second_name"}}
+        {{> 'fieldset/fieldset' label="Телефон" type="text" name="phone"}}
+        {{> 'fieldset/fieldset' label="Пароль" type="password" name="password"}}
+        {{> 'fieldset/fieldset' label="Пароль (ещё раз)" type="password" name="password_repeat"}}
+        {{> 'button/button' label="Зарегистрироваться" className="form__button"}}
+        {{> 'link/link' text="Войти" href="index.hbs" centred=true}}
+    </form>
+</div>
