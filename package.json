@@ -4,6 +4,8 @@
   "description": "Sprint_1",
   "scripts": {
     "dev": "parcel ./src/pages/index.hbs --no-cache",
+    "lint": "eslint --ext .js,.ts ./",
+    "lint-fix": "eslint --ext .js,.ts ./ --fix",
     "start": "parcel build ./src/pages/index.hbs && node ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,8 +22,15 @@
   "homepage": "https://github.com/Taiurskii/middle.messenger.praktikum.yandex#readme",
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-hbs": "^1.0.3",
+    "eslint-plugin-prettier": "^4.2.1",
     "parcel": "^2.7.0",
-    "postcss-nested": "^5.0.6"
+    "postcss": "^8.4.16",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^7.0.0",
+    "prettier": "^2.7.1"
   },
   "engines": {
     "node": ">= 16.15.0",
