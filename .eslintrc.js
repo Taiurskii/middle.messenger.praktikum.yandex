@@ -10,10 +10,5 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  rules: {
-    "eol-last": [
-      "warn",
-      "always"
-    ]
-  },
+  rules: {},
 }
