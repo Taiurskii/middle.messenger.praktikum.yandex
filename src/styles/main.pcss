@@ -16,7 +16,7 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background: var(--bg-grey);
+    background: var(--bg-white);
 }
 
 ul {
@@ -90,7 +90,34 @@ h2 {
 }
 .profile {
     margin: 50px auto;
-    width: 500px;
+    width: 510px;
     background: var(--bg-white);
 
+    text-align: center;
+}
+.profile_list {
+    display: flex;
+    flex-direction: column;
+    ul {
+        li {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--bg-grey);
+            margin: 10px 0;
+            padding: 10px 0;
+        }
+    }
+}
+.text-gray {
+    color: var(--color-gray);
+}
+.text-red {
+    color: var(--color-red);
+}
+
+.profile_actions {
+    margin-top: 50px;
+}
+.avatar__image {
+    border-radius: 100px;
 }

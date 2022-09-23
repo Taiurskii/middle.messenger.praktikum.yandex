@@ -3,20 +3,24 @@
 <div class="profile">
     <h2 class="profile__title">Профиль пользователя</h2>
     <div class="profile_avatar">
-        <a href="changeAvatar.hbs" class="profile__avatar">
-            <img src="#" alt="Аватар" class="avatar__image">
+        <a href="changeAvatar.hbs" class="avatar__link">
+            <img src="../../static/avatar.png" alt="Аватар" class="avatar__image">
         </a>
     </div>
+    <div>Codeboris</div>
     <div class="profile_list">
-        <div><div>Почта</div><div>pochta@yandex.ru</div></div>
-        <div><div>Логин</div><div>pochta@yandex.ru</div></div>
-        <div><div>Имя</div><div>pochta@yandex.ru</div></div>
-        <div><div>Фамилия</div><div>pochta@yandex.ru</div></div>
-        <div><div>Имя в чате</div><div>pochta@yandex.ru</div></div>
-        <div><div>Телефон</div><div>pochta@yandex.ru</div></div>
-
-        {{> 'link/link' text="Изменить данные" href="changeProfile.hbs" centred=true}}
-        {{> 'link/link' text="Изменить пароль" href="changePassword.hbs" centred=true}}
-        {{> 'link/link' text="Выйти" href="index.hbs" centred=true}}
+      <ul>
+        <li><span>Почта</span><span class="text-gray">pochta@yandex.ru</span></li>
+        <li><span>Логин</span><span class="text-gray">Codeboris</span></li>
+        <li><span>Имя</span><span class="text-gray">Boris</span></li>
+        <li><span>Фамилия</span><span class="text-gray">Taiurskii</span></li>
+        <li><span>Имя в чате</span><span class="text-gray">Codeboris</span></li>
+        <li><span>Телефон</span><span class="text-gray">89144580708</span></li>
+      </ul>
+      <ul class="profile_actions">
+        <li>{{> 'link/link' text="Изменить данные" href="changeProfile.hbs"}}</li>
+        <li>{{> 'link/link' text="Изменить пароль" href="changePassword.hbs"}}</li>
+        <li>{{> 'link/link' text="Выйти" href="index.hbs" class=".text-red"}}</li>
+      </ul>
     </div>
 </div>
