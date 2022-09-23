@@ -1,0 +1,123 @@
+@import './_variables.pcss';
+@import '../partials/button/button.pcss';
+@import '../partials/fieldset/fieldset.pcss';
+@import '../partials/link/link.pcss';
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: var(--bg-white);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.form {
+    text-align: center;
+}
+
+.card {
+    width: 340px;
+    margin: 20px auto;
+    padding: 50px 30px 30px;
+
+    background: var(--bg-white);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
+    border-radius: 12px;
+
+    &__title {
+        margin-bottom: 50px;
+
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+
+        text-align: center;
+
+        color: var(--color-text);
+    }
+}
+
+.page {
+    display: flex;
+    height: 100vh;
+    /* calculate the height. Header is 30px */
+}
+
+.sidebar {
+    width: 200px;
+    background: var(--bg-grey);
+}
+
+.content {
+    background: var(--bg-white);
+    position:relative;
+    flex: 1 0 auto;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    /* enable grow, disable shrink */
+    &_top {
+        background: var(--bg-grey);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 50px;
+    }
+    &_message {
+        background: var(--bg-grey);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+    }
+}
+.profile {
+    margin: 50px auto;
+    width: 510px;
+    background: var(--bg-white);
+
+    text-align: center;
+}
+.profile_list {
+    display: flex;
+    flex-direction: column;
+    ul {
+        li {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--bg-grey);
+            margin: 10px 0;
+            padding: 10px 0;
+        }
+    }
+}
+.text-gray {
+    color: var(--color-gray);
+}
+.text-red {
+    color: var(--color-red);
+}
+
+.profile_actions {
+    margin-top: 50px;
+}
+.avatar__image {
+    border-radius: 100px;
+}
